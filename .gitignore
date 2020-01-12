@@ -13,6 +13,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#Firebase
+*.json
+
 # C extensions
 *.so
 

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Prosto+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <title>RHILLX Home</title>
+</head>
+<body>
+    <body class="homepage is-preload">
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <section id="header" class="wrapper">
+
+                <!-- Logo -->
+                <div id="logo">
+                    <h1><a href="index.html">Richard Hill III</a></h1>
+                    <p>Call me a programmer or developer, just make sure you call me.</p>
+
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/richard-hill-iii-74585aa5/"><i
+                                class="fab fa-linkedin fa-2x social-link"></i></a>
+                        <a href="https://github.com/Rhillx"><i class="fab fa-github fa-2x social-link"></i></a>
+                        <a href=""><i class="fab fa-instagram fa-2x social-link"></i></a>
+                        <a href=""><i class="fab fa-youtube fa-2x social-link"></i></a>
+                    </div>
+
+                </div>
+
+                <!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href=#intro>The Man</a></li>
+                        <li><a href=#main>The Brand</a></li>
+                        <li><a href=#highlights>Projects</a></li>
+                        <li><a href=#footer>Reach Me</a></li>
+                    </ul>
+                </nav>
+
+
+            </section>
+
+            <!-- Intro -->
+            <section id="intro" class="wrapper style1">
+                <div class="title">The Man</div>
+                <div class="container">
+                    <p class="style1">So in case you were wondering what im all about ...</p>
+                    <div class="profile-pic">
+                        <img class="bio-pic" src="{{url_for('static', filename='images/biopic.jpg')}}" alt="">
+                    </div>
+                    <p class="style2">
+                        <q>Coding is life made simple, and simply I love to code.</q>
+                    </p>
+                    <p class="style3">I am just interested in bringing the future forward while making it fun in the
+                        process. Extremely passionate about what I do and seeking to collaborate with out of the box
+                        thinkers. Thats really that in a nutshell.</p>
+                    <ul class="actions">
+                        <li><a href="#main" class="button style3 large">Proceed</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Main -->
+            <section id="main" class="wrapper style2">
+                <div class="title">The Brand</div>
+                <div class="container">
+
+                    <!-- Image -->
+                    <a href="#" class="image featured">
+                        <img src="{{url_for('static', filename='images/logo_white_background.jpg')}}" alt="" />
+                    </a>
+
+                    <!-- Features -->
+                    <section id="features">
+                        <header class="style1">
+                            <h2>May I interest you in my services?</h2>
+                            <p>here is what I have to offer.</p>
+                        </header>
+                        <div class="feature-list">
+                            <div class="row">
+                                <div class="col col-6 col-12-medium">
+                                    <section>
+                                        <h3 class="icon fa-wifi">IOT Programming and Development</h3>
+                                        <p>Raspberry Pi, Arduino, Sparkfun.... You get the drift. If it can be
+                                            programmed
+                                            then Im ready to explore the possibilities.</p>
+                                    </section>
+                                </div>
+                                <div class="col col-6 col-12-medium">
+                                    <section>
+                                        <h3 class="icon fa-database">SQL Databases</h3>
+                                        <p> Lets build you a fully custom database for your backend...business that is.
+                                            Create user authentication and administration portal as well as the data
+                                            structure you desire.</p>
+                                    </section>
+                                </div>
+                                <div class="col col-6 col-12-medium">
+                                    <section>
+                                        <h3 class="icon fa-terminal">Scripts and Programs</h3>
+                                        <p>Need a custom script to suit your needs? Maybe a helpful widget or small
+                                            program can help you with day to day tasks. </p>
+                                    </section>
+                                </div>
+                                <div class="col col-6 col-12-medium">
+                                    <section>
+                                        <h3 class="icon fa-code">Software and Mobile App Dev</h3>
+                                        <p>Yeah.. lets face it, everyone has that 1 app idea that they believe will hit
+                                            it big! Well what are you waiting for? lets build it!</p>
+                                    </section>
+                                </div>
+                                <!-- <div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon fa-brackets-curly">Aliquam consequat et feugiat</h3>
+												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
+											</section>
+										</div> -->
+                                <!-- <div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon fa-check">Dolore laoreet aliquam mattis</h3>
+												<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
+											</section>
+										</div> -->
+                            </div>
+                        </div>
+                        <ul class="actions special">
+                            <li><a href="#footer" class="button style1 large">Get Started</a></li>
+                            <!-- <li><a href="#" class="button style2 large">More Info</a></li> -->
+                        </ul>
+                    </section>
+
+                </div>
+            </section>
+
+            <!-- Highlights -->
+            <section id="highlights" class="wrapper style3">
+                <div class="title">Projects -n- Ideas</div>
+                <div class="container">
+                    <div class="row aln-center">
+                        <div class="col-4 col-12-medium">
+                            <section class="highlight">
+                                <img class="projex1-img" src="{{url_for('static', filename='images/boxxs.jpg')}}" alt=""
+                                    width="300px" height="300px" />
+                                <video class="projex1-vid" src="{{url_for('static', filename='videos/Boxxs.mp4')}}"
+                                    width="100%" height="600px" controls></video>
+
+                                <h3><a href="#">Flutter app with python backend</a></h3>
+                                <p>Dont like banks? How about thee ol shoe box money box? Well here is an app to help
+                                    you
+                                    keep track of your money. Built with Flutter framework and python 3.</p>
+                                <ul class="actions">
+                                    <li><button class="button style1 demo1">View Demo</button>
+                                        <button class="button close close1">Close Demo</button>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <section class="highlight">
+                                <img class="projex2-img" src="{{url_for('static', filename='images/blarticx.png')}}"
+                                    alt="" width="300px" height="300px" />
+                                <video class="projex2-vid" src="{{url_for('static', filename='videos/blarticx.mp4')}}"
+                                    width="100%" height="600px" controls></video>
+                                <h3><a href="#">Built in python with flask framework</a></h3>
+                                <p>Simple blogsite to create and edit articles written by the user. Displays full
+                                    registration and authentication, coded in python with flask framework.</p>
+                                <ul class="actions">
+                                    <li><button class="button style1 demo2">View Demo</button>
+                                        <button class="button close close2">Close Demo</button>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <section class="highlight">
+                                <img class="projex3-img" src="{{url_for('static', filename='images/projex.jpg')}}"
+                                    alt="" width="300px" height="300px" />
+                                <video class="projex3-vid"
+                                    src="{{url_for('static', filename='videos/projexCreate.mp4')}}" width="100%"
+                                    height="600px" controls></video>
+                                <h3><a href="#">Shell script to create new projects with 1 command</a></h3>
+                                <p>This simple script will makes it easy for developers to get projects on the way.
+                                    Intergrated github to create your version control while creating the project on your
+                                    local machine. </p>
+                                <ul class="actions">
+                                    <li><button class="button style1 demo3">View Demo</buttonv>
+                                            <button class="button close close3">Close Demo</button>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <section id="footer" class="wrapper">
+                <div class="title">Reach Me</div>
+                <div id="questionnaire">
+                    <h5 style="margin-bottom: 10px;">
+                        Lets make this easy, fill this out.
+                    </h5>
+                    <button type="button" class="pj"><a id="quest-link" href="/form">Project
+                            Questionnaire</a> </button>
+                </div>
+
+                <h5 class="or">~ OR ~</h5>
+
+                <div class="container">
+                    <header class="style1">
+                        <h2>Dont be shy, reach out and lets make it happen!</h2>
+                        <p>
+                            Send me a message. All inquiries will be responded too by me in a timely manner. Thank you
+                            in
+                            advance.
+                        </p>
+                    </header>
+                    <div class="row">
+                        <div class="container">
+
+                            <!-- Contact Form -->
+                            <section>
+                                <form action="https://formspree.io/rhillx.code@gmail.com" method="POST" />
+                                <div class="row gtr-50">
+                                    <div class="col-6 col-12-small">
+                                        <input type="text" name="name" id="contact-name" placeholder="Name" />
+                                    </div>
+                                    <div class="col-6 col-12-small">
+                                        <input type="text" name="email" id="contact-email" placeholder="Email" />
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea name="message" id="contact-message" placeholder="Message"
+                                            rows="4"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <ul class="actions">
+                                            <li><input type="submit" class="style1" value="Send" /></li>
+                                            <li><input type="reset" class="style2" value="Reset" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                </form>
+                            </section>
+                            <div id="copyright">
+                                <ul>
+                                    <li>&copy; RHILLX.CODED</li>
+                                    <li> 2019 </li>
+                                </ul>
+                            </div>
+                        </div>
+            </section>
+
+        </div>
+
+        <style>
+            #header {
+                background: url("{{url_for('static', filename='images/banner.jpg')}}");
+            }
+
+            #header::before {
+                background: url("{{url_for('static', filename='images/laptopClose.jpg')}}");
+            }
+
+            .close {
+                background-color: #dfdfdf;
+                color: #c22126;
+                margin: 10px;
+
+            }
+
+            .close:hover {
+                color: #fff;
+            }
+
+            .pj {
+                animation-name: flasher;
+                -moz-animation-name: flasher;
+                animation-duration: 3s;
+                -moz-animation-duration: 3s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes flasher {
+
+                0% {
+                    box-shadow: 0 0 2px 3px #c22126;
+                }
+
+                10% {
+                    box-shadow: 0 0 3px 4px #c22126;
+                }
+
+                20% {
+                    box-shadow: 0 0 4px 5px #c22126;
+                }
+
+                30% {
+                    box-shadow: 0 0 5px 6px #c22126;
+                }
+
+                40% {
+                    box-shadow: 0 0 6px 7px #c22126;
+                }
+
+                50% {
+                    box-shadow: 0 0 7px 8px #c22126;
+                }
+
+                60% {
+                    box-shadow: 0 0 6px 7px #c22126;
+                }
+
+                70% {
+                    box-shadow: 0 0 5px 6px #c22126;
+                }
+
+                80% {
+                    box-shadow: 0 0 4px 5px #c22126;
+                }
+
+                90% {
+                    box-shadow: 0 0 3px 4px #c22126;
+                }
+
+                100% {
+                    box-shadow: 0 0 2px 3px #c22126;
+                }
+            }
+
+            .or {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 10px;
+            }
+        </style>
+
+        <!-- Scripts -->
+        <script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+        <script src="{{url_for('static', filename='js/jquery.dropotron.min.js')}}"></script>
+        <script src="{{url_for('static', filename='js/browser.min.js')}}"></script>
+        <script src="{{url_for('static', filename='js/breakpoints.min.js')}}"></script>
+        <script src="{{url_for('static', filename='js/util.js')}}"></script>
+        <script src="{{url_for('static', filename='js/main.js')}}"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"></script>
+        <!-- SCRIPT FOR PROJEX -->
+        <script src="{{url_for('static', filename='js/demos.js')}}"></script>
+        <script>
+            const p1Vid = $('.projex1-vid');
+            const p2Vid = $('.projex2-vid');
+            const p3Vid = $('.projex3-vid');
+            const demoBtn1 = $('.demo1');
+            const demoBtn2 = $('.demo2');
+            const demoBtn3 = $('.demo3');
+            const close1 = $('.close1');
+            const close2 = $('.close2');
+            const close3 = $('.close3');
+            const close = $('.close');
+
+
+
+            p1Vid.hide();
+            p2Vid.hide();
+            p3Vid.hide();
+            close1.hide();
+            close2.hide();
+            close3.hide();
+
+
+            close.click(() => {
+                p1Vid.hide();
+                p2Vid.hide();
+                p3Vid.hide();
+                close1.hide();
+                close2.hide();
+                close3.hide();
+            });
+
+            demoBtn1.click(() => {
+                p1Vid.show();
+                close1.show();
+            });
+            demoBtn2.click(() => {
+                p2Vid.show();
+                close2.show();
+            });
+            demoBtn3.click(() => {
+                p3Vid.show();
+                close3.show();
+            });
+        </script>
+
+    </body>
+    
+</body>
+</html>
